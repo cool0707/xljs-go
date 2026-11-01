@@ -1,5 +1,9 @@
 # <img src="assets/xljs.png" width="40" align="top"> xljs
 
+> [!IMPORTANT]
+> **開発は Rust 版 [xljs-rs](https://github.com/cool0707/xljs-rs) に移行しました。** この Go 版は凍結しており、今後の機能追加・不具合修正は行いません。
+> スクリプトの API・メタデータ（`// ==xljs==`）・`xljs pack` で作った exe の形式は Rust 版でもそのまま使えます。新しく使う場合は Rust 版をご利用ください。
+
 JavaScript / TypeScript で書いたスクリプトで Excel・CSV の集計やデータ変換を行う、Windows 用のシングルバイナリです。Excel のインストールは不要です。
 
 ```js
